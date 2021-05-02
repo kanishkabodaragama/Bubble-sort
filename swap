@@ -1,11 +1,10 @@
 #include<stdio.h>
-#include<stlib.h>
 
 int main()
 {
-    int x=50,y=100,temp;//declare variables
-    temp=x; //temp=50
-    x=y; //x=100
+    int x=50,y=100,temp;
+    temp=x; //temp=20
+    x=y; //x=40
     y=temp; //y=50
      printf("Value of x %d\n",x);
      printf("Value of y %d\n",y);
